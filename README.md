@@ -1,2 +1,1 @@
-# Hello-world
-First project on C
+Hello world
