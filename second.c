@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 int main () {
-    int x = 5, y = 10, res;
-    x *= 5;
-    x--;
-
-    res = x + y;
+    double x, y, res;
+    scanf("%f", &x);
+    scanf("%f", &y);
     
-    printf("Variable: %d + %d = %d\n", x, y, res);
+    res = x / y;
+    
+    printf("Result: %f\n", res);
+
+    const char R = 'm';
+
+    printf("%c\n", R);;
 
     return 0;
 }
